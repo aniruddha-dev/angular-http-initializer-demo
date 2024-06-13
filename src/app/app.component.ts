@@ -16,7 +16,7 @@ export class AppComponent {
       console.log('app initializer => '+ data);
     });
 
-    console.log('Promize Data: ' + this.config.apiEndpoints?.api[0].users)
+    console.log('Promize Data: ' + this.config.apiEndpoints?.api[4].users)
     console.log('In AppComponent...');
   }
 }
